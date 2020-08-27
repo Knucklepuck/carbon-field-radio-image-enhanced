@@ -1,8 +1,8 @@
 {
-    "name": "htmlburger/carbon-field-radio-image-enhanced",
+    "name": "knucklepuck/carbon-field-radio-image-enhanced",
     "description": "Carbon Fields extension, that adds a Radio_Image_Enhanced field type.",
     "keywords": ["wordpress", "carbon-field", "carbon-field-radio-image-enhanced"],
-    "homepage": "http://yourhomepage.example.com",
+    "homepage": "http://www.knucklepuckmedia.com",
     "type": "library",
     "license": "GPL-2.0+",
     "authors": [],
