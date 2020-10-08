@@ -42,7 +42,13 @@
   display: block;
   max-width: 100%;
   padding: 5px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: 1px solid #e2e4e7;
+  margin-bottom: 6px;
+  min-width: 170px; }
+  .cf-radio__input:focus ~ .cf-radio__label .cf-radio-image-enhanced__image,
+  .cf-radio__input:checked ~ .cf-radio__label .cf-radio-image-enhanced__image {
+    outline: 4px solid #00a0d2; }
 
 .wp-block .cf-radio__list {
   list-style: none outside none; }
@@ -53,11 +59,4 @@
     flex: 0 0 20%; }
   .cf-container-theme-options .cf-radio__list-item {
     flex: 0 0 10%; }
-
-.cf-radio-image-enhanced__image {
-  border: 1px solid #e2e4e7;
-  margin-bottom: 6px; }
-  .cf-radio__input:focus ~ .cf-radio__label .cf-radio-image-enhanced__image,
-  .cf-radio__input:checked ~ .cf-radio__label .cf-radio-image-enhanced__image {
-    outline: 4px solid #00a0d2; }
 

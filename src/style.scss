@@ -72,6 +72,13 @@ $wp-color-gray-light-100: lighten($wp-color-base-gray, 77%);
 	max-width: 100%;
 	padding: 5px;
 	box-sizing: border-box;
+	border: 1px solid $wp-color-gray-light-500;
+	margin-bottom: 6px;
+	min-width: 170px;
+	.cf-radio__input:focus ~ .cf-radio__label &,
+	.cf-radio__input:checked ~ .cf-radio__label & {
+		outline: 4px solid $wp-color-medium-blue;
+	}
 }
 
 
@@ -90,15 +97,5 @@ $wp-color-gray-light-100: lighten($wp-color-base-gray, 77%);
 
 	.cf-container-theme-options & {
 		flex: 0 0 10%;
-	}
-}
-
-.cf-radio-image-enhanced__image {
-	border: 1px solid $wp-color-gray-light-500;
-	margin-bottom: 6px;
-	min-width: 170px;
-	.cf-radio__input:focus ~ .cf-radio__label &,
-	.cf-radio__input:checked ~ .cf-radio__label & {
-		outline: 4px solid $wp-color-medium-blue;
 	}
 }
