@@ -57,8 +57,10 @@ class Radio_Image_EnhancedField extends Component {
 						/>
 
 						<label className="cf-radio__label" htmlFor={ `${ id }-${ option.value }` }>
-							{<img className="cf-radio-image-enhanced__image" src={ option.image } />}
-							{ option.label }
+							{<img aria-label={ option.label } className="cf-radio-image-enhanced__image has-tooltip" src={ option.image } />}
+							<span>
+								{ option.label }
+							</span>
 						</label>
 					</li>
 				) ) }
