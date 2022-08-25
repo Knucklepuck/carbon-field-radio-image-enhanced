@@ -44,7 +44,7 @@ class Radio_Image_EnhancedField extends Component {
 		return (
 			<ul className="cf-radio__list">
 				{ field.options.map( ( option, index ) => (
-					<li className="cf-radio__list-item" key={ index }>
+					<li aria-label={ option.label } className="cf-radio__list-item has-tooltip" key={ index }>
 						<input
 							type="radio"
 							id={ `${ id }-${ option.value }` }
@@ -57,7 +57,7 @@ class Radio_Image_EnhancedField extends Component {
 						/>
 
 						<label className="cf-radio__label" htmlFor={ `${ id }-${ option.value }` }>
-							{<img aria-label={ option.label } className="cf-radio-image-enhanced__image has-tooltip" src={ option.image } />}
+							{<img className="cf-radio-image-enhanced__image" src={ option.image } />}
 							<span>
 								{ option.label }
 							</span>
