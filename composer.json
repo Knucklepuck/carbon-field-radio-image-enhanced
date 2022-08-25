@@ -1,7 +1,7 @@
 {
     "name": "knucklepuck/carbon-field-radio-image-enhanced",
     "description": "Carbon Fields extension, that adds a Radio_Image_Enhanced field type.",
-    "version": "3.1.0",
+    "version": "3.1.2",
     "keywords": ["wordpress", "carbon-field", "carbon-field-radio-image-enhanced"],
     "homepage": "http://www.knucklepuckmedia.com",
     "type": "library",
